@@ -12,12 +12,12 @@ function Card({ data, reference, onDelete }) {
       dragConstraints={reference}
       whileDrag={{ scale: 1.1 }}
       dragElastic={0.1}
-      className="relative flex-shrink-0 w-60 h-72 rounded-[20px] bg-zinc-800/90 text-white p-6 overflow-hidden shadow-lg"
+      className="relative flex-shrink-0 w-60 h-72 rounded-[20px] bg-zinc-700/80 text-white p-6 overflow-hidden shadow-lg"
     >
       {/* Delete Button */}
       <button
         onClick={onDelete}
-        className="absolute top-2 right-2 text-red-400 hover:text-red-600 text-xl z-10 w-6 h-6 flex items-center justify-center"
+        className="absolute top-2 right-2 text-red-400 hover:text-red-600 text-xl  w-6 h-6 flex items-center justify-center"
       >
         ✕
       </button>
